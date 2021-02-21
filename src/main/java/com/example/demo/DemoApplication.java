@@ -10,7 +10,10 @@ import java.util.logging.Logger;
 @SpringBootApplication
 public class DemoApplication {
 
-	public static void main(String[] args) {
+	public static void main(String[] args)
+	{
+		String name="Indhu";
+		System.out.println("This is "+name);
 		SpringApplication.run(DemoApplication.class, args);
 	}
 }
